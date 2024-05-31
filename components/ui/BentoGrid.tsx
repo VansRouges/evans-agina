@@ -54,7 +54,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const rightLists = ["Astro", "NextJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -68,10 +68,16 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
     setCopied(true);
+    console.log("Copied!!!");
+    const text = "evansagina57@gmail.com";
+    navigator.clipboard.writeText(text);
+  
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
   };
+  
 
   return (
     <div
@@ -188,7 +194,7 @@ export const BentoGridItem = ({
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"
-                handleClick={handleCopy}
+                handleClick={() => {handleCopy()}}
                 otherClasses="!bg-[#161A31]"
               />
             </div>
