@@ -175,27 +175,41 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Frontend Engineer - Huangliji Restaurants",
+      desc: " Improved the functionality and UI/UX of a web-based food ordering platform for multiple stores under Huangliji, ensuring ease of use for customers and enhanced the order tracking system to provide real-time updates, improving transparency and customer satisfaction. ",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 2,
+      title: "Fullstack Developer - MenuJollof",
+      desc: "Collaborated with UI/UX designers and frontend developers to build and refine the user interface, ensuring design consistency and responsiveness across devices. Developed and integrated a robust backend system using modern frameworks, ensuring smooth interaction between frontend components and backend services.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
+    },
+    {
+      id: 3,
       title: "Frontend Engineer - Giddaa Housing Inc.",
       desc: "Spearheaded the development of the customer application, facilitating a seamless homeownership process, including KYC, home viewing bookings, document submission, approval, and payments.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
+      id: 4,
       title: "Frontend Developer - Spherical System Ltd",
       desc: "Led the development of the admin dashboard for the company's startup project at Spherical System Ltd.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
-      id: 3,
-      title: "Backend Engineer[Contract]",
+      id: 5,
+      title: "Backend Engineer[Contract] - InkworkLabs",
       desc: "Integrated smart contracts written in Rust with the frontend web application, allowing seamless interaction between user interface and the Solana blockchain.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
+      id: 6,
       title: "Frontend Developer - BlockLo Technologies",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
