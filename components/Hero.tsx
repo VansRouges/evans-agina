@@ -27,7 +27,7 @@ const Hero = () => {
                     words="Creating Seamless User Experiences from Concept"
                 />
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    Hi, I&apos;m Vance, a React/Next.js Developer based in Nigeria.
+                    Hi, I&apos;m Vance, a Fullstack Developer based in Nigeria.
                 </p>
 
                 <a href="#about">

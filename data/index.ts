@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "DeclanWork",
       des: "DeclanWork is a groundbreaking project I crafted using Next.js and TypeScript, expertly styled with Tailwind CSS. What sets it apart is its integration with the Flow Blockchain, powered by Cadence, enabling seamless interactions with smart contracts.",
-      img: "/p1.svg",
+      img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
       linkTitle: "DeclanWork",
       link: "https://declan-work.vercel.app/",
@@ -88,22 +88,15 @@ export const navItems = [
       linkTitle: "PlanetVance",
       link: "https://planet-vance-nft-gated-site.vercel.app/",
     },
-    // {
-    //   id: 3,
-    //   title: "AI Image SaaS - Canva Application",
-    //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    //   img: "/p3.svg",
-    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    //   link: "https://github.com/adrianhajdin/ai_saas_app",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Animated Apple Iphone 3D Website",
-    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //   img: "/p4.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //   link: "https://github.com/adrianhajdin/iphone",
-    // },
+    {
+      id: 3,
+      title: "EdTech SaaS",
+      des: "Built with NextJS and Tailwindcss with Thirdweb to hold the NFTs, and Solana Wallet Adapter to wallet connection and purchase of NFT. Without purchasing my NFT you can't gain access to the rest of my site.",
+      img: "/p3.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/thirdweb.svg"],
+      linkTitle: "PlanetVance",
+      link: "https://planet-vance-nft-gated-site.vercel.app/",
+    },
   ];
   
   export const testimonials = [
@@ -175,47 +168,76 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer - Huangliji Restaurants",
-      desc: " Improved the functionality and UI/UX of a web-based food ordering platform for multiple stores under Huangliji, ensuring ease of use for customers and enhanced the order tracking system to provide real-time updates, improving transparency and customer satisfaction. ",
+      title: "Fullstack Developer - Curriculo Inc.",
+      desc: "Led backend development for an AI-powered resume builder using Node.js, Express, and PostgreSQL. Integrated AI features, optimized PDF generation pipeline, and deployed infrastructure on AWS.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Fullstack Developer - MenuJollof",
-      desc: "Collaborated with UI/UX designers and frontend developers to build and refine the user interface, ensuring design consistency and responsiveness across devices. Developed and integrated a robust backend system using modern frameworks, ensuring smooth interaction between frontend components and backend services.",
+      title: "Fullstack Developer (Contract) - DataTechHub",
+      desc: "Designed and built an EdTech SaaS platform with Next.js, Sanity, and role-based access control. Integrated payment systems, video uploads, and analytics tools like Mixpanel and Sentry.",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
+    {
+      id: 3,
+      title: "Fullstack Developer (Contract) - Client (Lagos)",
+      desc: "Engineered a real-time collaboration EdTech platform using Node.js, Express, and Appwrite. Implemented secure authentication, SSR, and caching strategies for performance.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 4,
+      title: "Frontend Developer (Contract) - Huangliji",
+      desc: "Improved UI/UX for a multi-store food ordering platform. Enhanced order tracking with real-time updates and optimized application performance.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
     {
-      id: 3,
-      title: "Frontend Engineer - Giddaa Housing Inc.",
-      desc: "Spearheaded the development of the customer application, facilitating a seamless homeownership process, including KYC, home viewing bookings, document submission, approval, and payments.",
+      id: 5,
+      title: "Fullstack Developer (Contract) - MenuJollof",
+      desc: "Collaborated with UI/UX and frontend teams to implement robust backend systems and consistent frontend design. Enhanced API communication and implemented agile practices.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
-      id: 4,
-      title: "Frontend Developer - Spherical System Ltd",
-      desc: "Led the development of the admin dashboard for the company's startup project at Spherical System Ltd.",
-      className: "md:col-span-2", // change to md:col-span-2
+      id: 6,
+      title: "Frontend Developer - Giddaa Housing Inc.",
+      desc: "Built a customer-facing application for homeownership, including KYC, bookings, payments, and recurring billing. Integrated Remita Pay and SEO optimization.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
-      id: 5,
-      title: "Backend Engineer[Contract] - InkworkLabs",
-      desc: "Integrated smart contracts written in Rust with the frontend web application, allowing seamless interaction between user interface and the Solana blockchain.",
-      className: "md:col-span-2", // change to md:col-span-2
+      id: 7,
+      title: "Frontend Developer - Spherical System Ltd",
+      desc: "Developed a responsive admin dashboard using Next.js, TypeScript, and Tailwind CSS. Integrated APIs, React Skeleton, and improved decision-making UX.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
-      id: 6,
-      title: "Frontend Developer - BlockLo Technologies",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      id: 8,
+      title: "Backend Engineer (Contract) - Inkwork Labs",
+      desc: "Integrated Solana smart contracts with the frontend using TypeScript. Developed APIs to synchronize blockchain interactions and real-time UI updates.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
+    {
+      id: 9,
+      title: "Frontend Developer - BlockLo Technologies",
+      desc: "Built dashboard components and layouts with React, consumed AWS-hosted APIs, and implemented state management for real-time updates.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 10,
+      title: "Frontend Developer - Manuel’s Rides Logistics",
+      desc: "Developed and maintained the company’s delivery logistics website, improving performance and UX based on user feedback and regular updates.",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
   ];
+  
   
   export const socialMedia = [
     {
