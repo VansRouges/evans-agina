@@ -91,9 +91,9 @@ export const navItems = [
     {
       id: 3,
       title: "EdTech SaaS",
-      des: "Built with NextJS and Tailwindcss with Thirdweb to hold the NFTs, and Solana Wallet Adapter to wallet connection and purchase of NFT. Without purchasing my NFT you can't gain access to the rest of my site.",
+      des: "This is an EdTech SaaS platform, a web-based application that facilitates communication between School Admins, teachers and students. The platform provides a dashboard for tracking academic performance, event updates, and attendance records.",
       img: "/p3.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/thirdweb.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/node.png"],
       linkTitle: "PlanetVance",
       link: "https://planet-vance-nft-gated-site.vercel.app/",
     },
